@@ -12,6 +12,7 @@ app.use(bodyParser.json());
 let dbPool;
 
 // Initialize the database and connection pool
+// random
 async function initializeDb() {
   dbPool = mysql.createPool({
     host: '34.162.85.171',

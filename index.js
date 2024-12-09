@@ -13,6 +13,7 @@ let dbPool;
 
 // Initialize the database and connection pool
 // random
+// check 1
 async function initializeDb() {
   dbPool = mysql.createPool({
     host: '130.211.226.175',
